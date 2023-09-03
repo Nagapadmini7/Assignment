@@ -1,0 +1,23 @@
+<div class="name-div">
+			<div class="name">What is your name?<span class="required">*</span></div>
+			<div class="input-div"><input type="input" name="answer" placeholder="Your answer"></div>
+		</div>
+
+		<div class="college-div">
+			<div class="name">Enter  your college name.</div>
+			<div class="input-div"><input type="input" name="answer" placeholder="Your answer"></div>
+		</div>
+
+		<div class="gmail-div">
+			<div class="name">Enter  your email.<span class="required">*</span></div>
+			<div class="input-div"><input type="input" name="answer" placeholder="Your email"></div>
+		</div>
+
+		<div class="mobile-div">
+			<div class="name">Enter  your mobile no.</div>
+			<div class="input-div"><input type="input" name="answer" placeholder="Your answer"></div>
+		</div>
+
+		<div>
+			<input class="btn" type="submit" name="Submit">
+		</div>

@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>this is my web page</title>
+	<link rel="stylesheet" type="text/css" href="google f.css">
+</head>
+<body>
+
+	<div class="form">
+		<div class="title-div">
+			<h1>Assignment task</h1>
+			<p>The name and photo associated with your Google account will be recorded when you upload files and submit this form. Your email is not part of your response.</p>
+			<p class="required">*Required</p>
+		</div>
+         
+        <div class="input-section">
+            <div class="checkkkkk">
+            <label class="name">MCQ<span class="required">*</span></label>
+            <div class="input-div">
+                <input type="radio" name="mcq" value="option1"> Option 1<br>
+                <input type="radio" name="mcq" value="option2"> Option 2<br>
+                <input type="radio" name="mcq" value="option3"> Option 3
+            </div></div>
+        </div>
+        
+        <!-- Checkbox -->
+        <div class="input-section">
+            <div class="checkkkkk">
+            <label class="name">Checkbox<span class="required">*</span></label>
+            <div class="input-div">
+                <input type="checkbox" name="checkbox" value="option1"> Option 1<br>
+                <input type="checkbox" name="checkbox" value="option2"> Option 2<br>
+                <input type="checkbox" name="checkbox" value="option3"> Option 3
+            </div></div>
+        </div>
+        
+        <!-- Short Answer -->
+        <div class="input-section">
+            <label class="name">Short Answer<span class="required">*</span></label>
+            <div class="input-div"><input type="text" name="short-answer" placeholder="Your answer"></div>
+        </div>
+        <!-- Paragraph -->
+        <div class="input-section">
+            <label class="name">Paragraph<span class="required">*</span></label>
+            <div class="input-div"><input type="text" name="short-answer" placeholder="Your answer"></div>
+        </div>
+
+<!-- Dropdown -->
+<div class="input-section">
+    <label class="name">Dropdown<span class="required">*</span></label>
+    <div class="input-div">
+        <select name="dropdown">
+            
+                <option value="" selected disabled>Choose</option>
+                <option value="option1">Option 1</option>
+                <option value="option2">Option 2</option>
+               
+            </select>
+        </select>
+    </div>
+</div>
+
+<!-- File Upload -->
+<div class="input-section">
+    <label class="name">File Upload<span class="required">*</span></label>
+    <div class="input-div"><input type="file" name="file-upload"></div>
+</div>
+
+<!-- Linear Scale -->
+<div class="input-section">
+    <label class="name">Linear Scale<span class="required">*</span></label>
+    <div class="input-div linear-scale">
+        <span>Worst</span>
+        <div class="scale-item">
+            <label for="scale-1">1</label>
+            <input type="radio" id="scale-1" name="linear-scale" value="1">
+        </div>
+        <div class="scale-item">
+            <label for="scale-2">2</label>
+            <input type="radio" id="scale-2" name="linear-scale" value="2">
+        </div>
+        <div class="scale-item">
+            <label for="scale-3">3</label>
+            <input type="radio" id="scale-3" name="linear-scale" value="3">
+        </div>
+        <div class="scale-item">
+            <label for="scale-4">4</label>
+            <input type="radio" id="scale-4" name="linear-scale" value="4">
+        </div>
+        <div class="scale-item">
+            <label for="scale-5">5</label>
+            <input type="radio" id="scale-5" name="linear-scale" value="5">
+        </div>
+        <span>Best</span>
+    </div>
+</div>
+
+
+
+<!-- Multi Choice Grid -->
+<!-- Multi Choice Grid -->
+<div class="input-section grid-section">
+    <label class="name">Multi Choice Grid<span class="required">*</span></label>
+    <div class="input-div">
+        <table>
+            <thead>
+                <tr>
+                    <th></th> <!-- Empty cell for alignment -->
+                    <th>Column 1</th>
+                    <th>Column 2</th>
+                    <th>Column 3</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Row 1</td>
+                    <td><input type="radio" name="row1" value="col1"></td>
+                    <td><input type="radio" name="row1" value="col2"></td>
+                    <td><input type="radio" name="row1" value="col3"></td>
+                </tr>
+                <!-- Repeat for Row 2 and Row 3 -->
+                <tr>
+                    <td>Row 2</td>
+                    <td><input type="radio" name="row2" value="col1"></td>
+                    <td><input type="radio" name="row2" value="col2"></td>
+                    <td><input type="radio" name="row2" value="col3"></td>
+                </tr>
+                <tr>
+                    <td>Row 3</td>
+                    <td><input type="radio" name="row3" value="col1"></td>
+                    <td><input type="radio" name="row3" value="col2"></td>
+                    <td><input type="radio" name="row3" value="col3"></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<!-- ... Same goes for Tick box Grid ... -->
+
+
+<!-- Tick box Grid -->
+<!-- Tick box Grid -->
+<div class="input-section grid-section">
+    <label class="name">Tick box Grid<span class="required">*</span></label>
+    <div class="input-div">
+        <table>
+            <thead>
+                <tr>
+                    <th></th> <!-- Empty cell for alignment -->
+                    <th>Column 1</th>
+                    <th>Column 2</th>
+                    <th>Column 3</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Row 1</td>
+                    <td><input type="checkbox" name="row1col1"></td>
+                    <td><input type="checkbox" name="row1col2"></td>
+                    <td><input type="checkbox" name="row1col3"></td>
+                </tr>
+                <tr>
+                    <td>Row 2</td>
+                    <td><input type="checkbox" name="row2col1"></td>
+                    <td><input type="checkbox" name="row2col2"></td>
+                    <td><input type="checkbox" name="row2col3"></td>
+                </tr>
+                <tr>
+                    <td>Row 3</td>
+                    <td><input type="checkbox" name="row3col1"></td>
+                    <td><input type="checkbox" name="row3col2"></td>
+                    <td><input type="checkbox" name="row3col3"></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<div class="action-bar">
+    <button class="submit-btn">Submit</button>
+    <div class="indicator-section">
+        <div class="page-indicator"></div>
+        <span class="page-numbering">Page 1 of 1</span>
+    </div>
+    <button class="clear-btn">Clear Form</button>
+</div>
+
+
+		<div class="last-div">
+			<p class="never">Never submit passwords through Google Forms.</p>
+			<p class="term">This content is neither created nor endorsed by Google, Report Abuse - Term of Service - Private Policy</p>
+			<h2>Google Forms</h2>
+		</div>
+		
+
+
+
+
+
+	</div>
+
+</body>
+</html>

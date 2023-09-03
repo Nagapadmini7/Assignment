@@ -1,0 +1,211 @@
+body{
+	background-color: #ede7f6;
+	font-family: Roboto,Sans-serif;
+}
+.form {
+    height: 1100px;
+    width: 650px; /* Adjusted to match the other cards */
+    margin: auto;
+}
+
+.required{]
+font-size: 13px;
+color: red;
+}
+.title-div {
+    height: 150px;
+    width: 650px; /* Adjusted to match the other cards */
+    background-color: #FDFEFE;
+    margin: 15px;
+    border-radius: 8px;
+    border-top: 8px solid #6703c4;
+    padding: 25px;
+}
+
+.name-div, .college-div, .gmail-div, .mobile-div{
+	height: 150px;
+	width: 650px;
+	background-color: #FDFEFE;
+	margin: 15px;
+	border-radius: 8px;
+}
+.name{
+	padding-top: 20px;
+	padding-left: 25px;
+	padding-bottom: 25px;
+	font-size: 15px;
+}
+.input-div{
+	padding-top: 25px;
+	padding-left: 25px;
+}
+.input-div input{
+	width: 300px;
+	border: 0;
+	outline: 0;
+	border-bottom: 1.5px solid #DCD7D7;
+	font-size: 15px;
+}
+.btn{
+	height: 36px;
+	width: 100px;
+	background-color: #6703c4;
+	border-radius: 5px;
+	font-size: 14px;
+	letter-spacing: .5px;
+	font-weight: 540;
+	border: none;
+	padding: 10px;
+	position: absolute;
+	margin: 15px;
+	color: white;
+}
+.last-div h2{
+	text-align: center;
+	padding-top: 50px;
+	color: #a2a4a6;
+	font-weight: 200;
+}
+.never, .term {
+    padding-left: 25px;  
+    font-size: 12px;     
+    position: relative; 
+    margin-bottom: 5px; 
+    display: block;    
+    width: calc(100% - 50px);
+    white-space: nowrap; 
+    overflow: hidden;  
+    text-overflow: ellipsis; 
+}
+
+.input-section {
+    height: auto;
+    width: 650px;
+    background-color: #FDFEFE;
+    margin: 15px;
+    border-radius: 8px;
+    padding: 20px 25px;
+}
+
+.input-div textarea {
+    width: 90%;
+    height: 80px;
+    border: 1.5px solid #DCD7D7;
+    font-size: 15px;
+    resize: vertical; /* Allow vertical resizing */
+}
+
+.input-div select {
+    width: 90%;
+    font-size: 15px;
+    padding: 5px;
+}
+
+
+
+.grid-section table {
+    width: 100%;
+    border-spacing: 0 5px; /* This provides vertical spacing between rows */
+    table-layout: fixed; /* This ensures all columns have the same width */
+}
+
+.grid-section th, .grid-section td {
+    border: none; /* Remove cell borders */
+    padding: 10px; /* Adjust padding */
+    text-align: center;
+    margin-bottom: 5px; /* Margins on table cells don't work by default, but we're adding it here in conjunction with a transparent border trick */
+    border-bottom: 5px solid transparent; /* This is the trick to make it seem as if there's a margin between table rows */
+}
+
+.grid-section tbody td {
+    background-color: #f5f5f5; /* Light grey background color */
+}
+
+.grid-section input[type="checkbox"], .grid-section input[type="radio"] {
+    margin: 0;
+    zoom: 1.4;
+    margin-left:-100px;
+}
+
+.linear-scale {
+    display: flex;
+    align-items: center;
+    justify-content: space-around; /* This will distribute space evenly around items */
+    width: 100%;
+}
+
+.scale-item {
+    margin: 0 -150px;
+    position: relative; /* Make .scale-item a position reference for its children */
+}
+
+.scale-item label {
+    position: absolute; /* This will allow exact positioning of the number */
+    bottom: 25px; /* This pushes the number above the checkbox. Adjust value as needed. */
+    left: 50%; /* Centers the label */
+    transform: translateX(-50%); /* Ensures perfect centering */
+}
+
+.checkbox-section, .mcq-section {
+    text-align: left;
+    /* If your heading has padding, match it here. For example: */
+  padding:50px; /* Adjust this value based on your design */
+}
+
+.input-section .checkkkkk label.name {
+    display: block;  /* Make the label a block-level element */
+    margin-bottom: 10px;  /* Provide some space between the label and checkboxes */
+}
+
+.input-section .checkkkkk .input-div {
+  
+    margin-left: -140px;  
+    margin-top: -40px;
+}
+.action-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+    width: 100%;
+    padding: 0 20px;
+    background-color: #ede7f6;
+}
+
+.submit-btn, .clear-btn {
+    background-color: purple;
+    color: white;
+    padding: 5px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0 10px; /* Added margin for spacing */
+}
+
+.clear-btn {
+    background-color: transparent;
+    color: purple;
+}
+
+.page-indicator {
+    width: 100px;
+    height: 10px; 
+    background-color: green;
+    border-radius: 10px;
+    margin-right: 10px; /* Added margin for spacing between indicator and text */
+}
+
+.indicator-section {
+    display: flex;
+    align-items: center; /* Vertically center the items in this section */
+}
+
+.page-numbering {
+    font-size: 14px; /* Adjust font size as needed */
+}
+.title-div h1 {
+    font-weight: bold;
+}
+.title-div p {
+    font-weight: normal;
+}
